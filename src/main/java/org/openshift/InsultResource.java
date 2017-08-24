@@ -16,6 +16,6 @@ public class InsultResource {
 	public HashMap<String,String> getInsult() {
 		HashMap<String, String> theInsult = new HashMap<String, String>();
 		theInsult.put("insult", new InsultGenerator().generateInsult());
-		return theInsult();
+		return theInsult;
 	}
 }
